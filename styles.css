@@ -1,9 +1,29 @@
+html,
 body {
-    font-family: Arial, sans-serif;
-    margin-left: 100px;
+    height: 100%;
 }
 
-/* Estilo dos botões */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    padding-top: 8vh;
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.superior {
+    width: 90%;
+    max-width: 420px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: rgb(189, 149, 216);
+    text-align: center;
+}
+
 input[type="submit"],
 .btn-limpar {
     display: inline-block;
@@ -15,44 +35,48 @@ input[type="submit"],
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-
+    margin-left: 6px;
 }
 
-/* Efeito ao passar o mouse */
 input[type="submit"]:hover,
 .btn-limpar:hover {
     background-color: #10B910;
+}
+
+input[type="number"] {
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.crianca,
+.adolescente,
+.adulto,
+.idoso {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 4px;
     font-weight: bold;
+    margin-top: 12px;
 }
 
 .crianca {
-    background-color: rgba(0, 0, 255, 0.404);
-    font-weight: bold;
-    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.25);
+    color: white;
 }
 
 .adolescente {
-    background-color: green;
-    font-weight: bold;
-    display: inline-block;
+    background-color: #cbeccd;
+    color: #0b5a12;
 }
 
 .adulto {
-    background-color: gray;
-    font-weight: bold;
-    display: inline-block;
+    background-color: #e2e2e2;
+    color: #333;
 }
 
 .idoso {
-    background-color: rgba(240, 52, 52, 0.616);
-    font-weight: bold;
-    display: inline-block;
-}
-
-.superior {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: rgb(189, 149, 216);
+    background-color: white;
+    color: black;
 }
