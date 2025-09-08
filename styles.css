@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 100px;
+}
+
+/* Estilo dos botões */
+input[type="submit"],
+.btn-limpar {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+/* Efeito ao passar o mouse */
+input[type="submit"]:hover,
+.btn-limpar:hover {
+    background-color: #10B910;
+    font-weight: bold;
+}
+
+.crianca {
+    background-color: rgba(0, 0, 255, 0.404);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.adolescente {
+    background-color: green;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.adulto {
+    background-color: gray;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.idoso {
+    background-color: rgba(240, 52, 52, 0.616);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.superior {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(189, 149, 216);
+}
